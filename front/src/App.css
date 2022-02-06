@@ -1,0 +1,27 @@
+body {
+  --twitter-color: #50b7f5;
+  --twitter-border-box: #e6ecf0;
+  --twitter-error: #e0245e;
+  --twitter-background: #ffffff;
+  --twitter-text-color: #000000;
+  --twitter-icon: #50b7f5;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    --twitter-text-color: #d9d9d9;
+    --twitter-border-box: #2f3336;
+    --twitter-background: #000000;
+    --twitter-icon: #d9d9d9;
+  }
+}
+
+.app {
+  background-color: var(--twitter-background);
+  color: var(--twitter-text-color);
+  display: flex;
+  height: 100vh;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
